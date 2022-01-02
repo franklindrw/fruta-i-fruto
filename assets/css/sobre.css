@@ -1,16 +1,37 @@
 .sobre {
-  padding: 2.5rem;
-  text-align: center;
+    text-align: center;
 }
 
 .sobre__titulo {
-  color: var(--vermelho-escuro);
-  font-family: var(--titulo-principal);
-  font-size: 3.1875rem;
+    color: var(--vermelho-escuro);
+    font-family: var(--titulo-principal);
 }
 
 .sobre__descricao {
-  color: var(--cinza-escuro);
-  font-size: 1.75rem;
-  font-weight: 100;
+    color: var(--cinza-escuro);
+    font-weight: 100;
+}
+
+@media screen and (min-width: 0) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+    .sobre__titulo {
+        font-size: 2rem;
+    }
+    .sobre__descricao {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }
+    .sobre__titulo {
+        font-size: 3.1875rem;
+    }
+    .sobre__descricao {
+        font-size: 1.75rem;
+    }
 }
