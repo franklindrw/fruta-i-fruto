@@ -1,0 +1,17 @@
+.quem-somos {
+    padding: 5rem;
+    text-align: center;
+}
+
+.quem-somos__titulo {
+    color: var(--vermelho-escuro);
+    font-family: var(--titulo-principal);
+    font-size: 3.1875rem;
+    margin-bottom: 1rem;
+}
+
+.quem-somos__descricao {
+    color: var(--cinza-medio);
+    font-size: 1.75rem;
+    font-weight: 100;
+}

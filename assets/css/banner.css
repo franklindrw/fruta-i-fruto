@@ -1,0 +1,22 @@
+.banner {
+    position: relative;
+}
+
+.banner__titulo {
+    color: var(--branco-medio);
+    font-family: var(--titulo-principal);
+    font-size: 5.0625rem;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 100%;
+}
+
+.banner__imagem {
+    background: url("../img/banner.jpg") no-repeat center / cover;
+    height: calc(100vh - 72px);
+    width: 100%;
+}
